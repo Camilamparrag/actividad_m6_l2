@@ -27,6 +27,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+CSRF_TRUSTED_ORIGINS = [
+"https://localhost:8000",
+"https://symmetrical-space-system-x56p754v676p3v64p.github.dev/",
+]
 
 # Application definition
 
