@@ -5,8 +5,8 @@
 Para aislar las dependencias del proyecto se creó un entorno virtual con los siguientes comandos:
 
 ```bash
-python -m venv env
-source env/bin/activate
+python -m venv venv
+source venv/bin/activate
 pip install django
 django-admin --version
 ```
@@ -15,8 +15,8 @@ django-admin --version
 
 | Comando | ¿Qué ocurre? |
 |---|---|
-| `python -m venv env` | Crea un entorno virtual llamado `env/` con su propio intérprete Python y espacio aislado para paquetes |
-| `source env/bin/activate` | Activa el entorno virtual, redirigiendo el `python` y `pip` del sistema al entorno aislado |
+| `python -m venv venv` | Crea un entorno virtual llamado `env/` con su propio intérprete Python y espacio aislado para paquetes |
+| `source venv/bin/activate` | Activa el entorno virtual, redirigiendo el `python` y `pip` del sistema al entorno aislado |
 | `pip install django` | Descarga e instala Django y sus dependencias dentro del entorno virtual |
 | `django-admin --version` | Muestra la versión instalada de Django (6.0.5) para verificar que se instaló correctamente |
 
